@@ -27,6 +27,7 @@ public class TeamDAOImpl implements TeamDAO {
 	@Autowired
 	private SessionFactory sessionFactory;
 	
+	
 	private Session getCurrentSession()
 	{
 		return sessionFactory.getCurrentSession();
